@@ -13,7 +13,7 @@ from setuptools import find_packages, setup, Command,find_namespace_packages
 
 # Package meta-data.
 NAME = 'latticex.rosetta'
-DESCRIPTION = 'Rosetta is a privacy-preserving framework based on [TensorFlow](https://www.tensorflow.org). It integrates with mainstream privacy-preserving computation technologies, including crypography, federated learning and trusted execution environment. Rosetta aims to provide privacy-preserving solutions for artificial intellegence without requiring expertise in cryptogprahy, federated learning and trusted execution environment. Rosetta reuses the APIs of TensorFlow and allows to transfer traditional TensorFlow codes into a privacy-preserving manner with minimal changes. E.g., just add the one line to enable Rosetta execution.'
+DESCRIPTION = 'Rosetta is an open source privacy-preserving machine learning framework.'
 URL = 'https://github.com/LatticeX-Foundation/Rosetta'
 EMAIL = 'rosetta_dev@protonmail.com'
 AUTHOR = 'LatticeX Foundation'
