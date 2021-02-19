@@ -1,2 +1,1 @@
-include README.md LICENSE
-recursive-include latticex *.so
+recursive-include latticex *.so README.md LICENSE
