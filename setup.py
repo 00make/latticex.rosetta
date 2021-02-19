@@ -9,7 +9,7 @@ import os
 import sys
 from shutil import rmtree
 
-from setuptools import find_packages, setup, Command
+from setuptools import find_packages, setup, Command,find_namespace_packages
 
 # Package meta-data.
 NAME = 'latticex.rosetta'
@@ -98,7 +98,7 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
+    packages=find_namespace_packages(include=["latticex", "latticex.*"], ),
     # If your package is a single module, use this instead of 'packages':
     # py_modules=['mypackage'],
 
