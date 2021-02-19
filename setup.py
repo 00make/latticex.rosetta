@@ -13,16 +13,16 @@ from setuptools import find_packages, setup, Command
 
 # Package meta-data.
 NAME = 'latticex.rosetta'
-DESCRIPTION = 'Rosetta is a privacy-preserving framework based on TensorFlow.'
+DESCRIPTION = 'Rosetta is a privacy-preserving framework based on [TensorFlow](https://www.tensorflow.org). It integrates with mainstream privacy-preserving computation technologies, including crypography, federated learning and trusted execution environment. Rosetta aims to provide privacy-preserving solutions for artificial intellegence without requiring expertise in cryptogprahy, federated learning and trusted execution environment. Rosetta reuses the APIs of TensorFlow and allows to transfer traditional TensorFlow codes into a privacy-preserving manner with minimal changes. E.g., just add the one line to enable Rosetta execution.'
 URL = 'https://github.com/LatticeX-Foundation/Rosetta'
 EMAIL = 'rosetta_dev@protonmail.com'
-AUTHOR = 'rosetta_dev'
+AUTHOR = 'LatticeX Foundation'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.1.0'
+VERSION = '0.3.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'tensorflow', 
+    'tensorflow', 'numpy', 'pandas', 
 ]
 
 # What packages are optional?
@@ -108,7 +108,7 @@ setup(
     install_requires=REQUIRED,
     extras_require=EXTRAS,
     include_package_data=True,
-    license='GPL',
+    license='LGPLv3',
     classifiers=[
         # Trove classifiers
         # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
